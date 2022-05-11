@@ -3,10 +3,10 @@
 Chainlink Hackathon Project
  
 ## Overview
-The product name is “NEBULA MUSIC”. Nebula Music is a decentralized music protocol that enables music lovers to stream their favorite artists music and earn token rewards  that can be staked on a music market where the artists numbers and stats is the asset being traded. The Nebula music protocol is powered by its native token “Nebula (NEB)”
+The product name is “NEBULA MUSIC”. Nebula Music is a decentralized music protocol that enables music lovers to stream their favorite artists music and earn token rewards  that can be staked on a music market where the artists numbers and stats(data) is the asset being traded. The Nebula music protocol is powered by its native token “Nebula (NEB)”
  
  
-The Nebula music dApp has two main goals, to provide an enhanced and user-friendly experience while streaming music NFTs and to provide added value to musical artists by incentivizing & rewarding  their fans to enable their success via streams.
+The Nebula music dApp has two main goals, to provide an enhanced and user-friendly experience while streaming music NFTs and to provide added value to musical artists by incentivizing & rewarding their fans to enable their success via streams.
  
 Nebula music would bridge the gap between musicians and their fans in a phenomenal way.
  
@@ -44,7 +44,7 @@ Nebula music would bridge the gap between musicians and their fans in a phenomen
 
 - Frontend: Moralis, React Native
 - Backend: Chainlink Keepers, Alchemy 
-- Data Feed: Keeper
+- Data Feed: Keepers
 - Storage: IPFS/Filecoin
 - Deployement & Hosting: Hardhat
 
