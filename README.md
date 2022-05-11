@@ -10,7 +10,7 @@ The Nebula music dApp has two main goals, to provide an enhanced and user-friend
  
 Nebula music would bridge the gap between musicians and their fans in a phenomenal way.
  
-## Nebula’s Unique value propositions include;
+## Nebula’s Unique Value Propositions
  
 - User friendly experience
 - Decentralized Music distribution protocol
@@ -28,7 +28,7 @@ Nebula music would bridge the gap between musicians and their fans in a phenomen
 - NFT enthusiasts
 - Web 3 community
  
-## COMPETITORS (direct/indirect)
+## COMPETITORS [direct/indirect]
  
 - Audius 
 - Opensea
@@ -68,10 +68,11 @@ Nebula music would bridge the gap between musicians and their fans in a phenomen
 
 
  
-##Target users
-The NFT and crypto community 
+## Target users
+
+- The NFT and crypto community 
 The community includes tens of thousands of developers, technologists, users, miners, HODLers, and enthusiasts all over the world. They are interested in the spread and participate in discussions about blockchain technology’s future development. This Community consists of regular crypto users, crypto enthusiasts, tech developers, media, financial institutions and various startups 
-Music lovers
+- Music lovers
 This included people love and enjoy music and have dedicated tremendous amount of listening time to other music platforms and haven’t been properly rewarded for their role in the success of musicians and streaming platforms themselves .
 
 
