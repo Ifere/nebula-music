@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
 
 contract Nebula is ERC1155, Ownable, ERC1155Supply {
-
+error youDoNotOwnThis();
     struct Music {
         bytes32 name;
         string nftURI;
@@ -14,7 +14,7 @@ contract Nebula is ERC1155, Ownable, ERC1155Supply {
 
     
     mapping(uint256 => Music) idToMusic;
-    mapping(uint256 => address[]) ownerOf;
+    mapping(uint256 => address[]) ownersOf;
 
     uint256[] nftIds;
 
@@ -42,7 +42,7 @@ contract Nebula is ERC1155, Ownable, ERC1155Supply {
         onlyOwner
     {
         _mint(msg.sender, id, amount, "");
-        ownerOf[id].push(msg.sender);
+        ownersOf[id].push(msg.sender);
     }
 
     function mintBatch( uint256[] memory ids, uint256[] memory amounts)
@@ -58,8 +58,13 @@ contract Nebula is ERC1155, Ownable, ERC1155Supply {
             return string(idToMusic[_id].nftURI);
     }
 
-    function getOwner(uint256 id_) public view returns(address[] memory){
-        return (ownerOf[id_]);
+    function getOwner(uint256 id_) public view returns(address owner){
+        address[] memory owners = ownersOf[id_];
+        for (uint256 i=0; i <= owners.length; i++) {
+            if (owners[i] == msg.sender) {
+                return owners[i];
+            }else revert youDoNotOwnThis();
+        }  
     }
 
     // The following functions are overrides required by Solidity.
