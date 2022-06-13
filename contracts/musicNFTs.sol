@@ -60,7 +60,7 @@ error youDoNotOwnThis();
 
     function getOwner(uint256 id_) public view returns(address owner){
         address[] memory owners = ownersOf[id_];
-        for (uint256 i=0; i <= owners.length; i++) {
+        for (uint256 i=0; i < owners.length; i++) {
             if (owners[i] == msg.sender) {
                 return owners[i];
             }else revert youDoNotOwnThis();
