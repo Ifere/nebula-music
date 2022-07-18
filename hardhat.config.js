@@ -26,7 +26,7 @@ module.exports = {
     },
     rinkeby: {
       chainId: 4,
-      url: "https://rinkeby.infura.io/v3/39b8011800ce43469aac1b4e6877f14f",
+      url: "https://rinkeby.infura.io/v3/prodKey",
     },
   },
   namedAccounts: {
